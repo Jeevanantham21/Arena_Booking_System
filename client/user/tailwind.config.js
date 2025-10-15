@@ -1,7 +1,6 @@
 import daisyui from "daisyui";
 import animations from "@midudev/tailwind-animations";
 
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -11,9 +10,9 @@ export default {
         primary: "#22c55e",
         "primary-focus": "#16a34a",
       },
-      backgroundImage:{
-        "banner": "url('/r.png')",
-      }
+      backgroundImage: {
+        banner: "url('/r.png')",
+      },
     },
   },
   plugins: [daisyui, animations],
